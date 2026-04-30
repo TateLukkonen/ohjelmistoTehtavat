@@ -2,6 +2,7 @@ import { useState } from "react";
 import Lisaa from "./lisaa.jsx";
 import Vahenna from "./vahenna.jsx";
 import Nollaa from "./nollaa.jsx";
+import Tupla from "./tupla.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <Lisaa setCount={setCount} />
       <Vahenna setCount={setCount} />
       <Nollaa setCount={setCount} />
+      <Tupla setCount={setCount} />
     </div>
   );
 }

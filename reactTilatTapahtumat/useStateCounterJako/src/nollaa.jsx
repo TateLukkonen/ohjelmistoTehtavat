@@ -2,7 +2,7 @@ function Nollaa({ setCount }) {
   return (
     <div>
       <button onClick={() => setCount((prev) => prev - prev)}>
-        Kasvata Lukemaa
+        Nollaa Lukemaa
       </button>
     </div>
   );
