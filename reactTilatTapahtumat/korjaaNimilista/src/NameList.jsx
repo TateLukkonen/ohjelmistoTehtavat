@@ -15,13 +15,13 @@ function NameList() {
 
   return (
     <div>
-        <ul>
-            {names.map((name, index) => (
-            <li key={index}>{name}</li>
+      <ul>
+        {names.map((name, index) => (
+          <li key={index}>{name}</li>
         ))}
-        </ul>
-          <SyötettyNimi newName={newName} setNewName={setNewName} />
-        <button onClick={addName}>Lisää nimi</button>
+      </ul>
+      <SyötettyNimi newName={newName} setNewName={setNewName} />
+      <button onClick={addName}>Lisää nimi</button>
     </div>
   );
 }
