@@ -1,0 +1,37 @@
+[
+  {
+    "kirjanumero": 2,
+    "hinta": 36,
+    "nimi": "Maria ja My",
+    "julkaisija": "Tietokirjat ry",
+    "painovuosi": 2017
+  },
+  {
+    "kirjanumero": 4,
+    "hinta": 36,
+    "nimi": "SQL-mysteeri",
+    "julkaisija": "Tietokirjat ry",
+    "painovuosi": 2017
+  },
+  {
+    "kirjanumero": 7,
+    "hinta": 123,
+    "nimi": "Pulpettien kapina",
+    "julkaisija": "Painotalo Xyz",
+    "painovuosi": 2005
+  },
+  {
+    "kirjanumero": 3,
+    "hinta": 123,
+    "nimi": "Suku on paras",
+    "julkaisija": "Tietopaino",
+    "painovuosi": 2018
+  },
+  {
+    "kirjanumero": 5,
+    "hinta": 36,
+    "nimi": "Numerohirmu",
+    "julkaisija": "Kirjapaino Oy",
+    "painovuosi": 1990
+  }
+]
