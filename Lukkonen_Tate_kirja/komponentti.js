@@ -86,19 +86,12 @@ class kirjaElementti extends HTMLElement {
   //  RENDER
   render() {
     this.shadowRoot.innerHTML = `
-      <style>
-        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-        .card { border: 1px solid #ccc; padding: 10px; }
-        button { cursor: pointer; }
-        .cart { margin-top: 20px; border-top: 2px solid #000; padding-top: 10px; }
-      </style>
-
       <h2>Kirjat</h2>
-      <div class="grid">
+      <div class="books">
         ${this._Kirjat
           .map(
             (t) => `
-          <div class="card">
+          <div class="book">
             <h4>${t.nimi}</h4>
             <p>Painovuosi: ${t.painovuosi}</p>
             <p>Hinta: ${t.hinta} €</p>
@@ -109,8 +102,19 @@ class kirjaElementti extends HTMLElement {
           )
           .join("")}
       </div>
+      
+      <style>
+          .books {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 30px;
+          border: solid, 3px, black;
+          padding-bottom: 20px;
+          }
+      </style>
 
-      <div class="cart">
+      <div>
         <h2>Ostoskori</h2>
         ${[...this._ostoskori.values()]
           .map(
@@ -124,7 +128,7 @@ class kirjaElementti extends HTMLElement {
           .join("")}
 
         <p><b>Yhteensä: ${this.laskeSumma()} €</b></p>
-        <button id="clear">Tyhjennä kori</button>
+        <button>Tyhjennä kori</button>
       </div>
     `;
 
