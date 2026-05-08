@@ -1,13 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Kirja-elementti</title>
-  </head>
-  <body>
-    <kirja-elementti data-url="./kirjaVarasto.json"></kirja-elementti>
+<head>
+  <meta charset="UTF-8" />
+  <title>Kirja</title>
+</head>
 
-    <script src="komponentti.js"></script>
-    <script src="main.js"></script>
-  </body>
+<body>
+  <kirja-elementti data-url="./kirjaVarasto.json"></kirja-elementti>
+  <ostoskori-elementti></ostoskori-elementti>
+  <script type="module" src="./kirja.js"></script>
+  <script type="module" src="./ostoskori.js"></script>
+
+</body>
 </html>
