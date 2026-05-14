@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function AddItemForm({ onAddItem }) {
+function Form({ onAddItem }) {
   const [inputValue, setInputValue] = useState("");
 
   const handleSubmit = (event) => {
@@ -27,4 +27,4 @@ function AddItemForm({ onAddItem }) {
   );
 }
 
-export default AddItemForm;
+export default Form;

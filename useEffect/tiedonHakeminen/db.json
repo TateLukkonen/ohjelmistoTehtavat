@@ -1,0 +1,23 @@
+{
+  "tuotteet": [
+    {
+      "id": "2",
+      "nimi": "Hiiri",
+      "hinta": 25,
+      "kategoria": "Tietokoneet"
+    },
+    {
+      "id": "3",
+      "nimi": "Kuulokkeet",
+      "hinta": 79,
+      "kategoria": "Audio"
+    },
+    {
+      "nimi": "a",
+      "hinta": 4,
+      "kategoria": "a",
+      "id": "MdHxdEloxEQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
