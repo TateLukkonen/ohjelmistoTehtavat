@@ -1,10 +1,10 @@
 {
   "tuotteet": [
     {
-      "id": "2",
-      "nimi": "Hiiri",
+      "nimi": "Hiir",
       "hinta": 25,
-      "kategoria": "Tietokoneet"
+      "kategoria": "Tietokoneet",
+      "id": "2"
     },
     {
       "id": "3",
